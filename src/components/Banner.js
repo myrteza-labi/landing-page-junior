@@ -4,7 +4,7 @@ import bannerImg from '../images/tablet/image-hero.png';
 
 function Banner(props){
     return(
-        <img src={bannerImg} alt="photo de face de plusieurs personnes" className="Banner"/>
+        <img src={bannerImg} alt="visage de plusieurs personnes" className="Banner"/>
     )
 }
 

@@ -9,6 +9,13 @@ import Footer from './components/Footer';
 import Button from './components/Button'; 
 import TextPresentation from './components/TextPresentation'
 import TextIntroduction from './components/TextIntroduction';
+import picture1 from './images/desktop/image-woman-in-videocall.jpg'; 
+import picture2 from './images/desktop/image-women-videochatting.jpg'; 
+import picture3 from './images/desktop/image-men-in-meeting.jpg'; 
+import picture4 from './images/desktop/image-man-texting.jpg'; 
+
+
+
 
 function App() {
   return (
@@ -21,15 +28,19 @@ function App() {
         <Button className={"Button btn1"} version={<span> V1.3</span>}> 
           Download
         </Button>
-        <Bookmark number={"#"} />
+        <Bookmark number={"02"} />
         <Galery>
-          <Picture src={""} alt={"#"} />
-          <Picture src={""} alt={"#"} />
-          <Picture src={""} alt={"#"} />
-          <Picture src={""} alt={"#"} />
+          <Picture src={picture1} alt={"une femme qui sourit devans son ordinateur"} />
+          <Picture src={picture2} alt={"3 dammes agées regardant un telephone"} />
+          <Picture src={picture3} alt={"un homme en appel vidéo sur son ordinateur"} />
+          <Picture src={picture4} alt={"un homme souriant regardant son téléphone"} />
         </Galery>
         <TextPresentation/>
-        <Footer/>
+        <Footer>
+          <Button className={"Button btn1"} version={<span> V1.3</span>}>
+            Download
+          </Button>
+        </Footer>
       </LandingPage>
     </div>
   );
