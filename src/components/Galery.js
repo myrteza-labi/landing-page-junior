@@ -3,7 +3,7 @@ import './Galery.css';
 
 function Galery(props){
     return(
-        <section className="Galery"></section>
+        <section className="Galery">{props.children}</section>
     )
 }
 

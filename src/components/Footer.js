@@ -3,7 +3,9 @@ import './Footer.css';
 
 function Footer(props){
     return(
-        <footer className="Footer"></footer>
+        <footer className="Footer">
+            
+        </footer>
     )
 }
 

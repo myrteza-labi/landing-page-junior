@@ -3,7 +3,9 @@ import './LandingPage.css';
 
 function LandingPage(props){
     return(
-        <div className="LandingPage"></div>
+        <div className="LandingPage">
+            {props.children}
+        </div>
     )
 }
 

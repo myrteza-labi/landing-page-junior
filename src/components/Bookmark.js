@@ -3,7 +3,7 @@ import './Bookmark.css';
 
 function Bookmark(props){
     return(
-        <p className="Bookmark"></p>
+        <p number={props.number} className="Bookmark"></p>
     )
 }
 
