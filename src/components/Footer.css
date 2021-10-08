@@ -1,5 +1,21 @@
 .Footer {
     display: flex; 
     flex-direction: column; 
-    justify-content: center; 
+    justify-content: center;  
+    align-items: center; 
+}
+#bookmark2 {
+    margin-bottom: 70px; 
+}
+
+.footerTitle {
+    margin-bottom: 25px; 
+}
+
+.footerParagraph {
+    margin-bottom: 40px; 
+}
+
+#btn3 {
+    margin-bottom: 50px; 
 }

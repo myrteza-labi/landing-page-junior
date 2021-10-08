@@ -1,0 +1,27 @@
+.Button{
+    height: 58px; 
+    border-radius: 40px; 
+    border: none; 
+}
+
+.btn1{
+    width: 190px; 
+    background-color: #4D96A9; 
+}
+
+.btn2{
+    width: 140px; 
+    background-color: #855FB1; 
+}
+
+.btn3 {
+    width: 190px; 
+    background-color: #855FB1; 
+}
+
+#btn1 {
+    margin-bottom: 15px; 
+}
+#btn2 {
+    margin-bottom: 60px; 
+}

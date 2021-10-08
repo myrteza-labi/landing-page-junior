@@ -4,4 +4,7 @@
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
+    background-color: #FAFAFA; 
+    padding: 25px; 
+    overflow: hidden; 
 }

@@ -6,7 +6,7 @@ import Bookmark from './Bookmark';
 function Footer(props){
     return(
         <footer className="Footer">
-            <Bookmark number={"02"} />
+            <Bookmark id={"bookmark2"} number={"02"} />
             <h2 className="footerTitle" >Experience more together</h2>
             <p className="footerParagraph" >  
                 Stay connected with reliable HD meetings and unlimited 

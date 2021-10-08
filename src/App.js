@@ -25,10 +25,13 @@ function App() {
         <Banner/>
         <TextIntroduction/>
 
-        <Button className={"Button btn1"} version={<span> V1.3</span>}> 
+        <Button id={"btn1"} className={"Button btn1"} version={<span> V1.3</span>}> 
           Download
         </Button>
-        <Bookmark number={"02"} />
+        <Button id={"btn2"}className={"Button btn2"}> 
+          What is it?
+        </Button>
+        <Bookmark id={"bookmark1"}number={"01"} />
         <Galery>
           <Picture src={picture1} alt={"une femme qui sourit devans son ordinateur"} />
           <Picture src={picture2} alt={"3 dammes agées regardant un telephone"} />
@@ -37,7 +40,7 @@ function App() {
         </Galery>
         <TextPresentation/>
         <Footer>
-          <Button className={"Button btn1"} version={<span> V1.3</span>}>
+          <Button id={"btn3"} className={"Button btn3"} version={<span> V1.3</span>}>
             Download
           </Button>
         </Footer>

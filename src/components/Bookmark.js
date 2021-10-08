@@ -3,7 +3,10 @@ import './Bookmark.css';
 
 function Bookmark(props){
     return(
-        <p className="Bookmark">{props.number}</p>
+        <p id={props.id} className="Bookmark">
+            <div className="bookmarkLine" ></div>
+            {props.number}
+        </p>
     )
 }
 
