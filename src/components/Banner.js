@@ -1,9 +1,10 @@
 import React from 'react'; 
 import './Banner.css'; 
+import bannerImg from '../images/tablet/image-hero.png'; 
 
 function Banner(props){
     return(
-        <div className="Banner"></div>
+        <img src={bannerImg} alt="photo de face de plusieurs personnes" className="Banner"/>
     )
 }
 
