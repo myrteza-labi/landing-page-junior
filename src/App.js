@@ -17,7 +17,10 @@ function App() {
         <Icon/>
         <Banner/>
         <TextIntroduction/>
-        <Button bgColor={""} color={""} secondaryColor={""}  ></Button>
+
+        <Button className={"Button btn1"} version={<span> V1.3</span>}> 
+          Download
+        </Button>
         <Bookmark number={"#"} />
         <Galery>
           <Picture src={""} alt={"#"} />

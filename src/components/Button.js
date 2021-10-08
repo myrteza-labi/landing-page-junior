@@ -3,13 +3,8 @@ import './Button.css';
 
 function Button(props){
     return(
-        <button 
-        className="Button" 
-        bgColor={props.bgColor} 
-        color={props.color} 
-        secondaryColor={props.secondaryColor}
-        >
-            {props.children}
+        <button className={props.className}>
+            {props.children}{props.version}
         </button>
     )
 }
