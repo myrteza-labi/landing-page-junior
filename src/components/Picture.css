@@ -13,3 +13,11 @@
         margin-bottom: 22px; 
     }
 }
+
+/* Desktop */
+@media screen and (min-width: 1441px){
+    .Picture {
+        width: 255px; 
+        height: 242px; 
+    }
+}

@@ -27,3 +27,14 @@
         font-size: 48px; 
     }
 }
+
+/* Desktop */
+@media screen and (min-width: 1441px){
+    .textIntroductionTitle{
+        font-size: 64px; 
+        line-height: 70px; 
+    }
+    .textIntroductionParagraph {
+        font-size: 18px; 
+    }
+}

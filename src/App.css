@@ -12,6 +12,19 @@
     align-items: center; 
 }
 
+.header {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+.btnAndTextContainer {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
 /* Tablette */
 @media screen and (min-width: 769px){
     .buttonContainer {
@@ -20,3 +33,25 @@
         margin-bottom: 80px; 
     }
 }
+
+
+/* Desktop */
+@media screen and (min-width: 1441px){
+    .header {
+        width: 100%; 
+        min-height: 368px; 
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+    .btnAndTextContainer {
+        order: 2; 
+        flex-direction: column-reverse; 
+        justify-content: center; 
+        align-items: center; 
+    }
+    .btnAndTextContainer * {
+        margin: 0; 
+    }
+}
+
+

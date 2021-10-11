@@ -3,7 +3,7 @@ import './Banner.css';
 
 function Banner(props){
     return(
-        <div className="Banner" >
+        <div className={props.className} >
             
         </div>
 
