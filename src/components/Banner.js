@@ -3,7 +3,10 @@ import './Banner.css';
 
 function Banner(props){
     return(
-        <div className="Banner" ></div>
+        <div className="Banner" >
+            
+        </div>
+
     )
 }
 

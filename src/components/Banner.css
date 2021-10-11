@@ -1,9 +1,11 @@
 .Banner {
     background-image: url("../images/tablet/image-hero.png"); 
+    background-size: cover; 
     width: 414px; 
     height: 153px; 
     align-self: center; 
     margin-bottom: 50px; 
+    
 }
 
 /* Tablette */
