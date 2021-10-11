@@ -17,3 +17,13 @@
     color: #87879D; 
     line-height: 28px; 
 }
+
+/* Tablette */
+@media screen and (min-width: 769px){
+    .TextIntroduction {
+        width: 455px; 
+    }
+    .textIntroductionTitle{
+        font-size: 48px; 
+    }
+}

@@ -24,13 +24,16 @@ function App() {
         <Icon/>
         <Banner/>
         <TextIntroduction/>
-
-        <Button id={"btn1"} className={"Button btn1"} version={<span> v1.3</span>}> 
-          Download
-        </Button>
-        <Button id={"btn2"}className={"Button btn2"}> 
-          What is it?
-        </Button>
+        
+        <div className="buttonContainer" >
+          <Button id={"btn1"} className={"Button btn1"} version={<span> v1.3</span>}> 
+            Download
+          </Button>
+          <Button id={"btn2"}className={"Button btn2"}> 
+            What is it?
+          </Button>
+        </div>
+       
         <Bookmark id={"bookmark1"}number={"01"} />
         <Galery>
           <Picture src={picture1} alt={"une femme qui sourit devans son ordinateur"} />

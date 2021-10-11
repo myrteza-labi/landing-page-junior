@@ -36,3 +36,13 @@
 #btn3 .version {
     color: #D9B8FF; 
 }
+
+/* Tablette */
+@media screen and (min-width: 769px){
+    #btn1, #btn2 {
+        margin: 0; 
+    }
+    #btn1 {
+        margin-right: 30px; 
+    }
+}

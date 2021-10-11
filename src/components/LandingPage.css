@@ -8,3 +8,10 @@
     padding: 25px; 
     overflow: hidden; 
 }
+
+/* Tablette */
+@media screen and (min-width: 769px){
+    .LandingPage {
+        width: 768px; 
+    }
+}

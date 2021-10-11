@@ -1,6 +1,16 @@
 .Banner {
+    background-image: url("../images/tablet/image-hero.png"); 
     width: 414px; 
     height: 153px; 
     align-self: center; 
     margin-bottom: 50px; 
+}
+
+/* Tablette */
+@media screen and (min-width: 769px){
+    .Banner {
+        background-image: url("../images/tablet/image-hero.png"); 
+        width: 820px; 
+        height: 300px; 
+    }
 }
