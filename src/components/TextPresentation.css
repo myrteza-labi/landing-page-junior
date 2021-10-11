@@ -1,5 +1,7 @@
 
 .TextPresentation {
+    display: flex; 
+    flex-direction: column; 
     text-align: center; 
     margin-top: 40px; 
     margin-bottom: 180px; 
@@ -27,4 +29,19 @@
     font-weight: 500; 
     color: #87879D; 
     line-height: 25px; 
+}
+
+/* Tablette */
+@media screen and (min-width: 769px){
+    .TextPresentation {
+        width: 570px; 
+        align-items: center; 
+        justify-content: right; 
+
+    }
+    .textPresentationTitle {
+        font-size: 40px; 
+        width: 445px; 
+        text-align: center; 
+    }
 }

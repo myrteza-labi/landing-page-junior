@@ -3,3 +3,13 @@
     border-radius: 8px; 
     margin-bottom: 22px; 
 }
+
+/* Tablette */
+@media screen and (min-width: 769px){
+    .Picture {
+        width: 164px; 
+        height: 156px; 
+        border-radius: 8px; 
+        margin-bottom: 22px; 
+    }
+}

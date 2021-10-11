@@ -42,3 +42,19 @@
 #btn3 {
     margin-bottom: 50px; 
 }
+
+/* Tablette */
+@media screen and (min-width: 769px){
+    .Footer {
+        width: 768px; 
+        
+    }
+    .footerTitle {
+        font-size: 40px; 
+        width: 455px; 
+        line-height: 45px; 
+    }
+    .footerParagraph {
+        width: 570px; 
+    }
+}
