@@ -2,12 +2,17 @@
     height: 58px; 
     border-radius: 40px; 
     border: none; 
+    font-family: 'Red Hat Display', sans-sefif;
+    font-weight: 700; 
+    color: #FFF; 
+    font-size: 16px; 
 }
 
 .btn1{
     width: 190px; 
     background-color: #4D96A9; 
 }
+
 
 .btn2{
     width: 140px; 
@@ -22,6 +27,12 @@
 #btn1 {
     margin-bottom: 15px; 
 }
+#btn1 .version {
+    color: #8FE3F9;
+}
 #btn2 {
     margin-bottom: 60px; 
+}
+#btn3 .version {
+    color: #D9B8FF; 
 }

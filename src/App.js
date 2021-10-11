@@ -25,7 +25,7 @@ function App() {
         <Banner/>
         <TextIntroduction/>
 
-        <Button id={"btn1"} className={"Button btn1"} version={<span> V1.3</span>}> 
+        <Button id={"btn1"} className={"Button btn1"} version={<span> v1.3</span>}> 
           Download
         </Button>
         <Button id={"btn2"}className={"Button btn2"}> 
@@ -40,7 +40,7 @@ function App() {
         </Galery>
         <TextPresentation/>
         <Footer>
-          <Button id={"btn3"} className={"Button btn3"} version={<span> V1.3</span>}>
+          <Button id={"btn3"} className={"Button btn3"} version={<span> v1.3</span>}>
             Download
           </Button>
         </Footer>

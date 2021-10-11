@@ -10,6 +10,8 @@
     border: 1px solid rgba(135,135,157,0.25); 
     color: rgba(135,135,157,1); 
     margin-top: 84px; 
+    font-size: 16px; 
+    font-weight: 900; 
 
 }
 
@@ -24,5 +26,10 @@
 }
 
 #bookmark1{
+    margin-bottom: 60px; 
+}
+
+#bookmark2{
+    margin-top: -30px; 
     margin-bottom: 60px; 
 }
