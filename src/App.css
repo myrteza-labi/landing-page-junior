@@ -12,6 +12,19 @@
     align-items: center; 
 }
 
+.header {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+.btnAndTextContainer {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
 /* Tablette */
 @media screen and (min-width: 769px){
     .buttonContainer {
@@ -20,3 +33,5 @@
         margin-bottom: 80px; 
     }
 }
+
+

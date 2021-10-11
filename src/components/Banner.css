@@ -1,4 +1,4 @@
-.Banner {
+.BannerLeft {
     background-image: url("../images/tablet/image-hero.png"); 
     background-size: cover; 
     width: 414px; 
@@ -10,9 +10,10 @@
 
 /* Tablette */
 @media screen and (min-width: 769px){
-    .Banner {
+    .BannerLeft {
         background-image: url("../images/tablet/image-hero.png"); 
         width: 820px; 
         height: 300px; 
     }
 }
+

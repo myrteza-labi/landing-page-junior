@@ -21,19 +21,26 @@ function App() {
   return (
     <div className="App">
       <LandingPage>
-        <Icon/>
-        <Banner/>
-        <TextIntroduction/>
         
-        <div className="buttonContainer" >
-          <Button id={"btn1"} className={"Button btn1"} version={<span> v1.3</span>}> 
-            Download
-          </Button>
-          <Button id={"btn2"}className={"Button btn2"}> 
-            What is it?
-          </Button>
-        </div>
-       
+        
+          <Icon/>
+          <header className="header">
+            <Banner className="BannerLeft"/>
+            <Banner className="BannerRight"/>
+            <div className="btnAndTextContainer" >
+              <div className="buttonContainer" >
+                <Button id={"btn1"} className={"Button btn1"} version={<span> v1.3</span>}> 
+                  Download
+                </Button>
+
+                <Button id={"btn2"}className={"Button btn2"}> 
+                  What is it?
+                </Button>
+              </div>
+              <TextIntroduction/>
+            </div>
+          </header>
+
         <Bookmark id={"bookmark1"}number={"01"} />
         <Galery>
           <Picture src={picture1} alt={"une femme qui sourit devans son ordinateur"} />
