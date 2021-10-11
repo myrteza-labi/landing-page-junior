@@ -11,41 +11,46 @@
 .btn1{
     width: 190px; 
     background-color: #4D96A9; 
+    margin-bottom: 15px; 
 }
 
 
 .btn2{
     width: 140px; 
     background-color: #855FB1; 
+    margin-bottom: 60px; 
 }
 
 .btn3 {
     width: 190px; 
     background-color: #855FB1; 
 }
-
-#btn1 {
-    margin-bottom: 15px; 
-}
-#btn1 .version {
-    color: #8FE3F9;
-}
-#btn2 {
-    margin-bottom: 60px; 
-}
-#btn3 .version {
+.btn3 .version {
     color: #D9B8FF; 
 }
+.btn1 .version {
+    color: #8FE3F9;
+}
+
 
 /* Tablette */
 @media screen and (min-width: 769px){
-    #btn1, #btn2 {
+    .btn1, .btn2 {
         margin: 0; 
     }
-    #btn1 {
+    .btn1 {
         margin-right: 15px; 
     }
-    #btn3  {
+    .btn3  {
         margin-bottom: 70px; 
+    }
+}
+
+
+/* Desktop */
+@media screen and (min-width: 1441px){
+
+    .btn3 {
+        margin: 0; 
     }
 }

@@ -35,3 +35,23 @@
 }
 
 
+/* Desktop */
+@media screen and (min-width: 1441px){
+    .header {
+        width: 100%; 
+        min-height: 368px; 
+        flex-direction: row; 
+        justify-content: space-between; 
+    }
+    .btnAndTextContainer {
+        order: 2; 
+        flex-direction: column-reverse; 
+        justify-content: center; 
+        align-items: center; 
+    }
+    .btnAndTextContainer * {
+        margin: 0; 
+    }
+}
+
+

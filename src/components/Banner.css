@@ -17,3 +17,28 @@
     }
 }
 
+/* Desktop */
+@media screen and (min-width: 1441px){
+    .BannerLeft {
+        max-width: 340px;
+        height: 358px; 
+        background-image: url("../images/desktop/image-hero-left.png"); 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: contain; 
+        margin: 0; 
+        order: 1; 
+        margin-left: -50px; 
+
+    }
+    .BannerRight {
+        min-width: 340px; 
+        height: 358px; 
+        background-image: url("../images/desktop/image-hero-right.png"); 
+        background-repeat: no-repeat; 
+        background-position: center; 
+        background-size: contain; 
+        order: 3; 
+        margin-right: -50px; 
+    }
+}

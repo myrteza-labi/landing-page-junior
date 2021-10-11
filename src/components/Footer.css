@@ -39,15 +39,14 @@
     margin-bottom: 40px; 
 }
 
-#btn3 {
+.btn3 {
     margin-bottom: 50px; 
 }
 
 /* Tablette */
 @media screen and (min-width: 769px){
     .Footer {
-        width: 768px; 
-        
+        width: 768px;   
     }
     .footerTitle {
         font-size: 40px; 
@@ -56,5 +55,26 @@
     }
     .footerParagraph {
         width: 570px; 
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1441px){
+    .Footer {
+        flex-direction: row;  
+        height: 310px; 
+        width: 1440px; 
+    }
+    .Footer * {
+        margin: 0; 
+    }
+    .Footer button {
+        margin: 0; 
+    }
+    .btn3 {
+        margin: 0; 
+    }
+    .footerParagraph {
+        width: 350px; 
     }
 }
